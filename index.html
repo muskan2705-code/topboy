@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Topboy Pizza</title>
+    <meta
+      name="description"
+      content="Topboy Pizza is a playful fast-casual pizza spot serving pizza, pasta, coffee, cheesecake, and garlic buns."
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/tb-favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/tb-favicon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/tb-favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Bowlby+One+SC&family=Nunito:wght@600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css?v=20260728-1" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="logo" href="#top" aria-label="Topboy Pizza home">
+          <img src="assets/tb-logo.png" alt="Topboy Pizza" />
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" data-nav-toggle>
+          <span></span><span></span><span></span>
+        </button>
+        <a class="nav-btn" href="menu.html?v=20260605-2">MENU</a>
+        <a class="nav-btn" href="about.html?v=20260605-1">ABOUT</a>
+        <a class="nav-btn" href="contact.html?v=20260605-1">CONTACT</a>
+        <a class="nav-btn" href="catering.html?v=20260606-1">CATERING</a>
+        <a class="nav-btn nav-btn-dark" href="#" data-order-choice>ORDER NOW</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-video" aria-hidden="true">
+          <video autoplay muted loop playsinline preload="metadata">
+            <source src="assets/pizza-making.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <h1>Topboy Pizza.</h1>
+        <p class="sub">
+          From first bites to last conversations, every table has a story worth sharing.
+        </p>
+        <div class="cta-wrap">
+          <a class="btn btn-rust" href="menu.html?v=20260605-2">EXPLORE THE MENU</a>
+        </div>
+
+      </section>
+
+      <section class="block" id="menu">
+        <div class="head-row reveal">
+          <div class="menu-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div>
+            <h2>The Highlights.</h2>
+            <p class="eyebrow">Best Of All.</p>
+          </div>
+          <a class="btn btn-rust" href="menu.html?v=20260605-2">FULL MENU</a>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <img
+              class="card-photo"
+              src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=85"
+              alt="Pizza meal with drink on a wooden table"
+            />
+            <h3>Pom Pizza</h3>
+            <p>
+              Pomodoro sauce, mozzarella, buffalo mozzarella, roasted cherry
+              tomatoes, rocket, green garlic, and hot honey.
+            </p>
+          </article>
+          <article class="card reveal">
+            <img
+              class="card-photo"
+              src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=900&q=85"
+              alt="Red sauce pasta served fresh"
+            />
+            <h3>Hawaiian</h3>
+            <p>
+              Cream sauce, buffalo mozzarella, spicy pineapple, jalapeno,
+              onion, parmesan, and sriracha.
+            </p>
+          </article>
+          <article class="card reveal">
+            <img
+              class="card-photo"
+              src="https://images.unsplash.com/photo-1587978810177-37d066c36f2c?auto=format&fit=crop&w=900&q=85"
+              alt="Garlic bread and cafe food"
+            />
+            <h3>Indiana</h3>
+            <p>
+              Pomodoro sauce, buffalo mozzarella, onion, hot paprika, sundried
+              tomato, chimichurri, and basil.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="block" id="about">
+        <div class="head-row story-heading reveal">
+          <div class="menu-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div>
+            <h2>What's The<br />Story?</h2>
+            <p class="eyebrow">Get in on it.</p>
+          </div>
+          <a class="btn btn-rust" href="#order">READ MORE</a>
+        </div>
+        <div class="story">
+          <article class="tile reveal" data-tile-link="about.html?v=20260605-1" role="link" tabindex="0">
+            <a class="story-badge story-badge-menu" href="menu.html?v=20260605-2">MENU</a>
+            <h3>Grill Ritual</h3>
+            <p>Big flavour, cheesy bites, and hot pizza made fresh daily.</p>
+          </article>
+          <article class="tile reveal" data-tile-link="about.html?v=20260605-1" role="link" tabindex="0">
+            <h3>The Main Event</h3>
+            <p>
+              Red sauce, melting cheese, golden garlic buns, and bold flavour
+              in every bite.
+            </p>
+          </article>
+          <article class="tile reveal" data-tile-link="about.html?v=20260605-1" role="link" tabindex="0">
+            <a class="story-badge story-badge-order" href="#" data-order-choice>ORDER</a>
+            <h3>Built For Sharing</h3>
+            <p>Food made for friends, laughter, late nights, and hungry tables.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="reviews" id="reviews">
+        <div class="inner">
+          <div class="head-row reveal">
+            <div class="menu-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div>
+              <h2>The Reviews<br />Are In.</h2>
+              <p class="eyebrow">What they're saying about us...</p>
+            </div>
+          </div>
+        </div>
+        <div class="review-wall" aria-label="Google customer reviews">
+          <div class="review-row review-row-top">
+            <article class="review-tile quote-tile tilt-left">
+              <div class="review-meta"><span>Radhen Kevadiya</span></div>
+              <p>"Best authentic Neapolitan pizzas in town. Must go."</p>
+            </article>
+            <article class="review-tile image-tile tilt-right">
+              <img src="assets/catering-4.jpg" alt="Topboy pizza slices" />
+            </article>
+            <article class="review-tile quote-tile tilt-left">
+              <div class="review-meta"><span>Eden Hawks</span></div>
+              <p>"10/10 pizzas - the best we have had in India."</p>
+            </article>
+            <article class="review-tile image-tile tilt-right">
+              <img src="assets/pesto-spaghetti.jpg" alt="Topboy pasta and food" />
+            </article>
+            <article class="review-tile quote-tile tilt-left" aria-hidden="true">
+              <div class="review-meta"><span>Radhen Kevadiya</span></div>
+              <p>"Best authentic Neapolitan pizzas in town. Must go."</p>
+            </article>
+            <article class="review-tile image-tile tilt-right" aria-hidden="true">
+              <img src="assets/catering-4.jpg" alt="" />
+            </article>
+            <article class="review-tile quote-tile tilt-left" aria-hidden="true">
+              <div class="review-meta"><span>Eden Hawks</span></div>
+              <p>"10/10 pizzas - the best we have had in India."</p>
+            </article>
+            <article class="review-tile image-tile tilt-right" aria-hidden="true">
+              <img src="assets/pesto-spaghetti.jpg" alt="" />
+            </article>
+          </div>
+          <div class="review-row review-row-bottom">
+            <article class="review-tile quote-tile tilt-right">
+              <div class="review-meta"><span>Neel Makwana</span></div>
+              <p>"Pizza was so good and totally worth it. Amazing and fresh."</p>
+            </article>
+            <article class="review-tile image-tile tilt-left">
+              <img src="assets/korean-garlic-bun.png" alt="Topboy Korean garlic bun" />
+            </article>
+            <article class="review-tile quote-tile tilt-right">
+              <div class="review-meta"><span>Subhangi Ghosh</span></div>
+              <p>"Good ambience with a good range of fresh pizzas."</p>
+            </article>
+            <article class="review-tile image-tile tilt-left">
+              <img src="assets/sriracha-sando.png" alt="Topboy sriracha sando" />
+            </article>
+            <article class="review-tile quote-tile tilt-right" aria-hidden="true">
+              <div class="review-meta"><span>Neel Makwana</span></div>
+              <p>"Pizza was so good and totally worth it. Amazing and fresh."</p>
+            </article>
+            <article class="review-tile image-tile tilt-left" aria-hidden="true">
+              <img src="assets/korean-garlic-bun.png" alt="" />
+            </article>
+            <article class="review-tile quote-tile tilt-right" aria-hidden="true">
+              <div class="review-meta"><span>Subhangi Ghosh</span></div>
+              <p>"Good ambience with a good range of fresh pizzas."</p>
+            </article>
+            <article class="review-tile image-tile tilt-left" aria-hidden="true">
+              <img src="assets/sriracha-sando.png" alt="" />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <div class="final-gap" aria-hidden="true"></div>
+
+      <section class="final" id="order">
+        <div class="final-copy">
+          <h2>What are you<br />waiting for?</h2>
+          <p class="eyebrow">We're ready when you are.</p>
+          <a class="btn btn-dark" href="#" data-order-choice>ORDER NOW</a>
+        </div>
+        <address class="contact-info">
+          <img class="cta-contact-logo" src="assets/tb-logo.png" alt="Topboy Pizza" />
+          <span class="contact-line">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-12A7 7 0 0 0 5 9c0 5.9 7 12 7 12Z"></path><circle cx="12" cy="9" r="2.5"></circle></svg>
+            601, 6th Floor, Oz House, Athwalines, Surat, Gujarat 395007
+          </span>
+          <a class="contact-line" href="tel:+917096951113">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"></path></svg>
+            070969 51113
+          </a>
+          <a class="contact-line" href="mailto:hello@topboypizza.com">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"></path><path d="m22 7-10 6L2 7"></path></svg>
+            hello@topboypizza.com
+          </a>
+        </address>
+        <div class="social-links" aria-label="Social links">
+          <a href="https://www.instagram.com/topboypizzza.srt?igsh=MWt4dGN5dWxiZ2I4dw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+              <circle cx="12" cy="12" r="4"></circle>
+              <circle cx="17.5" cy="6.5" r="1"></circle>
+            </svg>
+          </a>
+          <a href="https://wa.me/917096951113" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2a9.8 9.8 0 0 0-8.4 14.8L2.4 22l5.4-1.2A9.8 9.8 0 1 0 12 2Zm5.3 14.1c-.2.6-1.2 1.1-1.7 1.2-.5.1-1.1.2-3.3-.7-2.8-1.1-4.6-3.9-4.7-4.1-.1-.1-1.1-1.5-1.1-2.9 0-1.3.7-2 1-2.2.2-.2.5-.3.8-.3h.6c.2 0 .4 0 .6.5.2.6.8 2 .9 2.1.1.2.1.4 0 .6-.1.2-.2.3-.4.5l-.3.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1.2-.2.8-.9 1-1.2.2-.3.4-.2.7-.1.3.1 1.8.8 2.1 1 .3.1.5.2.6.4 0 .1 0 .6-.2 1.2Z"></path>
+            </svg>
+          </a>
+        </div>
+        <p class="final-copyright">© 2026 Topboy Pizza. All rights reserved.</p>
+      </section>
+    </main>
+
+    <script src="script.js?v=20260710-2"></script>
+  </body>
+</html>
